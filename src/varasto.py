@@ -43,4 +43,3 @@ class Varasto:
     def __str__(self):
         return f"saldo = {self.saldo}, vielä tilaa {self.paljonko_mahtuu()}"
 # pieni muutos
-# tämä kommentti on tarkoituksella liian pitkä, jotta pylint huomauttaa rivin pituudesta
